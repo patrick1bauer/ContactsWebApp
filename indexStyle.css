@@ -27,5 +27,7 @@ form{
   background-color: red;
   margin: 20px 500px auto;
   padding: 20px;
-
+}
+footer{
+  font-size: 14px;
 }
