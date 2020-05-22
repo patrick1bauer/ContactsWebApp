@@ -1,0 +1,5 @@
+//Two users, one with regular password and the other with a hashed password.
+	insert into User(firstname, lastname, login, password) VALUES ('John', 'Appleseed', 'JohnA', 'paswerd');
+	insert into User(firstname, lastname, login, password) VALUES ('Kelley', 'Ohara', 'KelleyO', 'dadada1928');
+	insert into User(firstname, lastname, login, password) VALUES ('John', 'Appleseed', 'JohnA', '5751239926c45f39cb919045790e3016');
+	insert into User(firstname, lastname, login, password) VALUES ('Kelley', 'Ohara', 'KelleyO', '65cb49a51f90053a54c2bc0570b6938f');
