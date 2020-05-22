@@ -1,0 +1,29 @@
+//insert into contacts
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Teagan', 'Larson', 1, '123-456-7890', 'tl@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Maxim', 'Booker', 1, '723-455-7890', 'maxbook@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Sahara', 'Mustafa', 1, '423-456-7890', 'mustafa@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Bentley', 'Huynh', 1, '555-456-7890', 'bentley@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Enrico', 'Wicks', 1, '787-456-7890', 'wixs@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Eden', 'Lancaster', 1, '354-456-7890', 'edenlan@email.com');
+
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Armani', 'Pineda', 2, '123-647-5890', 'armpineda@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Sammy', 'Cullen', 2, '128-173-6890', 'samcul@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Rihanna', 'Dodd', 2, '123-456-7890', 'tl@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Tyriq', 'Huber', 2, '123-008-4590', 'tyhuber@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Salma', 'Stuart', 2, '193-990-7290', 'sstuart87@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Naseem', 'Middleton', 2, '132-287-7340', 'nas_middle@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Adem', 'Beaumont', 2, '123-091-2390', 'beaubro@email.com');
+
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Donte', 'Gains', 3, '122-446-1290', 'gains_don88@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Devante', 'Healy', 3, '198-459-7750', 'healy37282@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Kacey', 'Wainwright', 3, '137-729-1773', 'kaceyww@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Jo', 'Dickinson', 3, '778-013-2748', 'jodick@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Olly', 'Powell', 3, '847-782-7382', 'powell_olly90@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Aron', 'Levy', 3, '194-839-9615', 'aaron.levy@email.net');
+
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Rosanna', 'Pratt', 4, '538-263-7333', 'rosa95.pratt@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Tonisha', 'Farley', 4, '829-362-4782', 'farley_tonisha@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Malaika', 'Maxwell', 4, '738-822-7723', 'malmax@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Sameera', 'Rennie', 4, '144-456-8490', 'sam_reenie87@email.com');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Rohan', 'Arias', 4, '748-662-8721', 'roro.arias2010@email.net');
+	insert into Contact(firstname, lastname, userID, phonenumber, email) VALUES ('Reid', 'Sneider', 4, '849-661-6371', 'sneider_reid@email.net');
