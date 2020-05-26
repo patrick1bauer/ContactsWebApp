@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Covid Contacts </title>
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="css/registerStyle.css">
   </head>
   <body>
     <h1><center>Covid Contacts</h1>
@@ -11,13 +11,20 @@
     <h3><center>Create New Account</h3>
       <form>
         <center>
-          <strong>Username:</strong> <input type="text" placeholder="Enter Username">
+          <strong>Username:</strong> <input type="text" id="username" placeholder="Enter Username">
           <br>
-          <strong>Password:</strong> <input type="text" placeholder="Enter Password">
+          <strong>Password:</strong> <input type="password" id="password" placeholder="Enter Password">
           <br>
             <strong>Confirm Password:</strong> <input type="text" placeholder="Enter Password Again">
           <br>
-          <input type="submit" name="Create" value="submit">
+          <strong>First Name:</strong> <input type="text" id="firstName" placeholder="Enter First Name">
+          <br>
+          <strong>Last Name:</strong> <input type="text" id="lastName" placeholder="Enter Last Name">
+          <br>
+          <strong>Email:</strong> <input type="email" id="email" placeholder="Enter Email">
+          <br>
+          <button type="button" onclick="register()"> Register </button>
+          <span id="registerResult"></span>
         </form>
   </body>
 </html>
