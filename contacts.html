@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+    <script type="text/javascript" src="js/md5.js"></script>
+    <script type="text/javascript" src="js/code.js"></script>
+	<link rel="stylesheet" href="css/contactsStyle.css">
+	
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() 
+		{
+			readCookie();
+		}, false);
+		</script>
+  </head>
+  <body class="box">
+    <h1><center>Covid Contacts</h1>
+    <br><br>
+	<h3><center>Contacts</h3>
+		<form>
+			<div class="searchBar">
+				<input class="input" type="text" id="searchText" placeholder="Contacts to Search"/>
+				<button class="button" type="button" id="contactsSearchButton" class="buttons" onclick="searchContacts();"> Search Contact </button><br />
+				<span id="contactSearchResult"></span>
+				<p id="contactList">
+				</p><br /><br />
+			</div>
+
+			<div class="addContact">
+				<p><strong>Add Contact</strong></p>
+				<input type="text" id="firstName" name="firstName" placeholder="Enter a First Name">
+				<br>
+				<input type="text" id="lastName" name="lastName" placeholder="Enter a Last Name">
+				<br>
+				<input type="email" id="email" name="email" placeholder="Enter a Email">
+				<br>
+				<button type="button" id="addColorButton" class="buttons" onclick="addContact();"> Add Contact </button><br/>
+				<span id="contactAddResult"></span>
+			</div>
+		</form>
+    </body><center><p><em><a href="index.html"> Log Out </a></em></p></footer>
+</html>

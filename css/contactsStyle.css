@@ -33,13 +33,40 @@ form{
 }
 footer{
   font-size: 14px;
+  text-align: center;
 }
-
+.searchBar {
+  text-align: center;
+  padding: 1em;
+}
+.input {
+  font-size: 1em;
+}
+.button {
+  font-size: 1em;
+}
 .button:hover {
   background-color: rgb(245, 175, 167);
 }
 
-.loginBox {
+.addContact{
+  text-align: center;
+}
+
+.addContact input{
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.addContact button{
+  font-size: 1em;
+}
+
+.addContact button:hover {
+  background-color: rgb(245, 175, 167);
+}
+
+.box {
   animation: fadeIn 2s forwards;
 }
 
@@ -53,3 +80,4 @@ footer{
       transform: translateY(0);
   }
 }
+
