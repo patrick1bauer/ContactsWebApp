@@ -10,7 +10,10 @@ h1{
 body{
   color: black;
   font-family: arial;
-  background-image: url('https://www.cdc.gov/media/dpk/diseases-and-conditions/coronavirus/images/outbreak-coronavirus-world-1024x506px.jpg');
+  background: rgb(245, 175, 167) url('https://www.cdc.gov/media/dpk/diseases-and-conditions/coronavirus/images/outbreak-coronavirus-world-1024x506px.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 h3{
   color: black;
@@ -30,4 +33,19 @@ form{
 }
 footer{
   font-size: 14px;
+}
+
+.loginBox {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0%;
+      transform: translateY(-2em);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
