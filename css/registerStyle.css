@@ -35,6 +35,10 @@ footer{
   font-size: 14px;
 }
 
+.button:hover {
+  background-color: rgb(245, 175, 167);
+}
+
 .loginBox {
   animation: fadeIn 2s forwards;
 }
