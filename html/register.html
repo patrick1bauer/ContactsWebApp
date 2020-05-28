@@ -12,20 +12,23 @@
     <br><br>
     <h3><center>Create New Account</h3>
       <form>
-        <center>
-          <input type="text" id="username" placeholder="Username">
-          <br>
-          <input type="password" id="password" placeholder="Password">
-          <br>
-          <input type="text" placeholder="Confirm Password">
-          <br>
-          <input type="text" id="firstName" placeholder="First Name">
-          <br>
-          <input type="text" id="lastName" placeholder="Last Name">
-          <br>
-          <button class="button" type="button" onclick="addUser();"> Register </button>
-          <br>
-          <span id="registerResult"></span>
-        </form>
+        <div>
+          <center>
+            <input type="text" class="textFields" id="username" placeholder="Username">
+            <br>
+            <input type="password" class="textFields" id="password" placeholder="Password">
+            <br>
+            <input type="text" class="textFields" placeholder="Confirm Password">
+            <br>
+            <input type="text" class="textFields" id="firstName" placeholder="First Name">
+            <br>
+            <input type="text" class="textFields" id="lastName" placeholder="Last Name">
+            <br>
+            <button class="button" type="button" onclick="addUser();"><span> Register </span></button>
+            <span id="registerResult"></span>
+            <a href="index.html" class="button"><span> Already have an account? </span></a>
+          </center>
+        </div>
+      </form>
   </body>
 </html>
