@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Register</title>
-    <link rel="stylesheet" href="css/registerStyle.css">
+    <script type="text/javascript" src="js/code.js"></script>
+    <script type="text/javascript" src="js/sha256.js"></script>
+    <link rel="stylesheet" href="/css/registerStyle.css">
   </head>
   <body>
     <h1><center>Covid Contacts</h1>
@@ -21,7 +23,8 @@
           <br>
           <input type="text" id="lastName" placeholder="Last Name">
           <br>
-          <button class="button" type="button" onclick="register()"> Register </button>
+          <button class="button" type="button" onclick="addUser();"> Register </button>
+          <br>
           <span id="registerResult"></span>
         </form>
   </body>

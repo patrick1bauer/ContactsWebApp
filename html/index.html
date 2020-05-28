@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Covid Contacts</title>
-    <script type="text/javascript" src="js/md5.js"></script>
+    <script type="text/javascript" src="js/sha256.js"></script>
     <script type="text/javascript" src="js/code.js"></script>
-    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="/css/indexStyle.css">
   </head>
   <body class="loginBox">
     <h1><center>Covid Contacts</h1>
@@ -17,7 +17,8 @@
           <br>
           <strong>Password:</strong> <input type="password" id="password" placeholder="Enter Password">
           <br>
-          <button class="button" type="button" onclick="login()"> Login </button>
+          <button class="button" type="button" onclick="login();"> Login </button>
+          <br>
           <span id="loginResult"></span>
       </form>
     </body>
