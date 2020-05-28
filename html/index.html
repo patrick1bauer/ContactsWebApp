@@ -6,6 +6,7 @@
     <script type="text/javascript" src="js/sha256.js"></script>
     <script type="text/javascript" src="js/code.js"></script>
     <link rel="stylesheet" href="/css/indexStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="loginBox">
     <h1><center>Covid Contacts</h1>
@@ -13,14 +14,25 @@
     <h3><center>Please sign in</h3>
       <form>
         <center>
-          <strong>Username:</strong> <input type="text" id="username" placeholder="Enter Username">
+          <i class="fa fa-user icon"></i>
+          <input type="text" class="textBox" id="username" placeholder="Enter Username">
           <br>
-          <strong>Password:</strong> <input type="password" id="password" placeholder="Enter Password">
+          <i class="fa fa-key icon"></i>
+          <input type="password" class="textBox" id="password" placeholder="Enter Password">
           <br>
-          <button class="button" type="button" onclick="login();"> Login </button>
-          <br>
-          <span id="loginResult"></span>
+
+          <div class="box">
+            <div>
+              <button class="button" type="button" onclick="login();"><span> Login </span></button>
+              <br>
+              <span id="loginResult"></span>
+            </div>
+
+            <div>
+              <a href="register.html" class="button"><span> Register </span></a>
+              <br>
+            </div>
+          </div>
       </form>
     </body>
-  <footer><p><em>Dont have an account?<a href="register.html"> Click here </a></em></p></footer>
 </html>
