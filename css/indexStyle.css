@@ -45,11 +45,14 @@ form{
   padding: 20px;
   width: auto;
   max-width: 20%;
-  min-width: 10em;
+  min-width: 11em;
 }
  
 .textBox {
   font-size: .8em;
+  width: 11em;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer{
@@ -67,14 +70,14 @@ footer{
 .box {
   display: flex;
   justify-content: space-evenly;
-  padding-right: 2em;
+  padding-right: 2.5em;
 }
 
 .button {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
-  border: none;
+  border: 1px black solid;
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
@@ -83,6 +86,8 @@ footer{
   transition: all 0.5s;
   cursor: pointer;
   margin: 1em;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .button span {
@@ -102,7 +107,7 @@ footer{
 }
 
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 1.5em;
 }
 
 .button:hover span:after {
@@ -112,7 +117,7 @@ footer{
 
 .button.login , .button.register {
   display:inline-block;
-  }
+}
 
 .loginBox {
   animation: fadeIn 2s forwards;
