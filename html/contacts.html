@@ -14,32 +14,36 @@
 		}, false);
 		</script>
   </head>
-  	<body class="box">
+  	<body>
 		<h1><center>Covid Contacts</h1>
 		<br><br>
 		<h3><center>Contacts</h3>
-		<form>
-			<div class="searchBar">
-				<input class="input" type="text" id="searchText" placeholder="Contacts to Search"/>
-				<button class="button" type="button" id="contactsSearchButton" class="buttons" onclick="searchContacts();"><span> Search Contact </span></button><br />
-				<span id="contactSearchResult"></span>
-				<p id="contactList">
-			</div>
+			<div class="box">
+				<form class="searchBox">
+					<div class="searchBar">
+						<input class="input" type="text" id="searchText" placeholder="Contacts to Search"/>
+						<button class="button" type="button" id="contactsSearchButton"  onclick="searchContacts();"><span> Search Contact </span></button>
+						<span id="contactSearchResult"></span>
+						<p id="contactList">
+					</div>
+				</form>
 
-			<div class="addContact">
-				<p><strong>Add Contact</strong></p>
-				<input type="text" class="textFields" id="firstName" name="firstName" placeholder="Enter a First Name">
-				<br>
-				<input type="text" class="textFields" id="lastName" name="lastName" placeholder="Enter a Last Name">
-				<br>
-				<input type="email" class="textFields" id="email" name="email" placeholder="Enter a Email">
-				<br>
-				<input type="text" class="textFields" id="phoneNumber" placeholder="Phone Number">
-				<br>
-				<button type="button" id="addContactButton" class="button" onclick="addContact();"><span> Add Contact </span></button><br/>
-				<span id="contactAddResult"></span>
+				<form class="addBox">
+					<div class="addContact">
+					<p><strong>Add Contact</strong></p>
+					<input type="text" class="textFields" id="firstName" name="firstName" placeholder="Enter a First Name">
+					<br>
+					<input type="text" class="textFields" id="lastName" name="lastName" placeholder="Enter a Last Name">
+					<br>
+					<input type="email" class="textFields" id="email" name="email" placeholder="Enter a Email">
+					<br>
+					<input type="text" class="textFields" id="phoneNumber" placeholder="Phone Number">
+					<br>
+					<button type="button" id="addContactButton" class="button" onclick="addContact();"><span> Add Contact </span></button><br/>
+					<span id="contactAddResult"></span>
+					</div>
+					<a href="index.html" class="button"><span> Log Out </span></a>
+				</form>
 			</div>
-			<a href="index.html" class="button"><span> Log Out </span></a>
-		</form>
 	</body>
 </html>
