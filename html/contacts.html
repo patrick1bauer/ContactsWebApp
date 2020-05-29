@@ -14,30 +14,32 @@
 		}, false);
 		</script>
   </head>
-  <body class="box">
-    <h1><center>Covid Contacts</h1>
-    <br><br>
-	<h3><center>Contacts</h3>
+  	<body class="box">
+		<h1><center>Covid Contacts</h1>
+		<br><br>
+		<h3><center>Contacts</h3>
 		<form>
 			<div class="searchBar">
 				<input class="input" type="text" id="searchText" placeholder="Contacts to Search"/>
-				<button class="button" type="button" id="contactsSearchButton" class="buttons" onclick="searchContacts();"> Search Contact </button><br />
+				<button class="button" type="button" id="contactsSearchButton" class="buttons" onclick="searchContacts();"><span> Search Contact </span></button><br />
 				<span id="contactSearchResult"></span>
 				<p id="contactList">
-				</p><br /><br />
 			</div>
 
 			<div class="addContact">
 				<p><strong>Add Contact</strong></p>
-				<input type="text" id="firstName" name="firstName" placeholder="Enter a First Name">
+				<input type="text" class="textFields" id="firstName" name="firstName" placeholder="Enter a First Name">
 				<br>
-				<input type="text" id="lastName" name="lastName" placeholder="Enter a Last Name">
+				<input type="text" class="textFields" id="lastName" name="lastName" placeholder="Enter a Last Name">
 				<br>
-				<input type="email" id="email" name="email" placeholder="Enter a Email">
+				<input type="email" class="textFields" id="email" name="email" placeholder="Enter a Email">
 				<br>
-				<button type="button" id="addContactButton" class="buttons" onclick="addContact();"> Add Contact </button><br/>
+				<input type="text" class="textFields" id="phoneNumber" placeholder="Phone Number">
+				<br>
+				<button type="button" id="addContactButton" class="button" onclick="addContact();"><span> Add Contact </span></button><br/>
 				<span id="contactAddResult"></span>
 			</div>
+			<a href="index.html" class="button"><span> Log Out </span></a>
 		</form>
-    </body><center><p><em><a href="index.html"> Log Out </a></em></p>
+	</body>
 </html>
